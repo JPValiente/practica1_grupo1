@@ -1,5 +1,8 @@
 #include "validadorPrimos.h"
 
+/*
+* Pide un numero para luego validarlo si es primo o no
+*/
 void validador(void) {
     int number = 0;
 
@@ -14,6 +17,9 @@ void validador(void) {
   	}
 }
 
+/*
+* Devuleve 1 si se trata de un numero primo, de lo contrario devuleve 0
+*/
 bool esPrimo(int numero){
 	if (numero == 0 || numero == 4) return 0;
   /*

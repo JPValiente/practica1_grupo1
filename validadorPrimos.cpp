@@ -15,7 +15,7 @@ void validador(void) {
 }
 
 bool esPrimo(int numero){
-	if (numero == 0 || numero == 1) return 0;
+	if (numero == 0 || numero == 4) return 0;
   /*
           El número 4 es un caso especial, pues al dividirlo entre
           2 el resultado es 2, y el ciclo nunca se cumple, indicando que
@@ -23,7 +23,7 @@ bool esPrimo(int numero){
                         inmediatamente indicamos que no es primo (regresando 0)
           Nota: solo es para el 4, los demás funcionan bien
   */
-  if (numero == 4) return 0;
+  if (numero == 1) return 1;
   for (int x = 2; x < numero / 2; x++) {
     // Si es divisible por cualquiera de estos números, no
     // es primo

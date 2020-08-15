@@ -1,26 +1,6 @@
-#include <iostream>
-using namespace std;
+#include "validadorPrimos.h"
 
-bool validador(int numero);
-
-int main()
-{
-    int number = 0;
-
-    cout << "==> Validador de numeros primos <==" << endl;
-    cout << "Ingrese un numero entero: ";
-    cin >> number;
-
-    if (validador(number)) {
-    	cout << "Es primo" << endl;
-  	} else {
-  	  	cout << "No es primo" << endl;
-  	}
-    return 0;
-}
-
-bool validador(int numero)
-{
+bool validador(int numero) {
     if (numero == 0 || numero == 1) return 0;
   /*
           El número 4 es un caso especial, pues al dividirlo entre

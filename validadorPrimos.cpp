@@ -1,7 +1,21 @@
 #include "validadorPrimos.h"
 
-bool validador(int numero) {
-    if (numero == 0 || numero == 1) return 0;
+void validador(void) {
+    int number = 0;
+
+    cout << "==> Validador de numeros primos <==" << endl;
+    cout << "Ingrese un numero entero: ";
+    cin >> number;
+
+    if (esPrimo(number)) {
+    	cout << "Es primo" << endl;
+  	} else {
+  	  	cout << "No es primo" << endl;
+  	}
+}
+
+bool esPrimo(int numero){
+	if (numero == 0 || numero == 1) return 0;
   /*
           El número 4 es un caso especial, pues al dividirlo entre
           2 el resultado es 2, y el ciclo nunca se cumple, indicando que

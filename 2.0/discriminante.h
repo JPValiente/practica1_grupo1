@@ -3,5 +3,6 @@
 #include <iostream>
 
 int discriminante(int a,int b,int c);
+void valorAbsoluto();
 
 #endif

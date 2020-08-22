@@ -16,5 +16,5 @@ void valorAbsoluto(){
 	std::cout << "Ingrese un número: " << std::endl;
 	std::cin >> a;
 	absoluto = abs(a);
-	std::cout << "El absoluto de " << a << " es " << absoluto;
+	std::cout << "El absoluto de " << a << " es " << absoluto<<endl;
 }

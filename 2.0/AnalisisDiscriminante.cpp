@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+#include <cmath>
 using namespace std;
 
 //Funcion que dados 3 valores correspondientes a la forma ax^2+bx+c retorna el numero discriminante
@@ -17,4 +18,14 @@ void valorAbsoluto(){
 	std::cin >> a;
 	absoluto = abs(a);
 	std::cout << "El absoluto de " << a << " es " << absoluto<<endl;
+}
+
+void logaritmoNatural(){
+	int x;
+	double result;
+	cout << "Ingresa un numero para encontrar su logaritmo"<<endl;
+	cin >> x;
+	result = log (x);
+	cout << "log("<<x<<") = " << result << endl;
+
 }

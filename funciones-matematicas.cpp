@@ -9,9 +9,12 @@
 using namespace std;
 
 int main() {
+esPar();
 validador();
 valorAbsoluto();
+logaritmoNatural();
 potenciaCubica();
+potenciaX();
 multiplicacion(2,2);
 division(6,3);
 }

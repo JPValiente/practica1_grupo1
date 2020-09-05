@@ -13,3 +13,14 @@ void potenciaCubica()
     double elevado = pow(numero, 3); //funcion que determina el resultado
     std::cout << "El numero " << numero << " elevado al cubo es " << elevado<<endl;
 }
+
+void potenciaX(){
+  int n, base;
+ cout << "Ingrese la base: " << endl;
+ cin >> base;
+ cout << "Ingrese el exponente" << endl;
+ cin >> n;
+ int resultado = pow(base,n);
+ cout << base << " elevado a la " << n << " es igual a " << resultado << endl;
+
+}

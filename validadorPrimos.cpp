@@ -38,3 +38,16 @@ bool esPrimo(int numero){
   // Si no se pudo dividir por ninguno de los de arriba, sí es primo
   return 1;
 }
+
+void esPar(void){
+  int numero;
+  cout << "Ingrese un numero entero: ";
+  cin >> numero;
+
+  if (numero % 2 == 0 ) {
+    cout << "ES PAR" << endl;
+  } else {
+      cout << "ES IMPAR" << endl;
+  }
+
+}

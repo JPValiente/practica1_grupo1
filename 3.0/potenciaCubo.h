@@ -5,5 +5,5 @@
 #include <math.h>
 
 void potenciaCubica();
-
+void potenciaX();
 #endif

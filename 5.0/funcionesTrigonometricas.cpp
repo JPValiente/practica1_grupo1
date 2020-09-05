@@ -37,7 +37,7 @@ float funcionCoseno(float anguloGrados){
 float funcionSeno(float anguloGrados){
     float PI = 3.14159265;
     float anguloRadianes = anguloGrados * PI / 180;
-    return sen(anguloRadianes);
+    return sin(anguloRadianes);
 }
 
 float funcionTangente(float anguloGrados){

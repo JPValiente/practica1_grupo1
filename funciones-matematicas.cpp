@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include "derivada.h"
 #include "validadorPrimos.h"
 #include "3.0/potenciaCubo.h"
 #include "2.0/discriminante.h"
@@ -18,6 +19,7 @@ int main() {
     logaritmoNatural();
     potenciaCubica();
     potenciaX();
+    derivadaCuadrada();
     multiplicacion(2,2);
     division(6,3);
 }

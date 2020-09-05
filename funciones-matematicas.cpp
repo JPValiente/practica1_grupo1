@@ -10,6 +10,7 @@
 using namespace std;
 
 int main() {
+    cout<<"El MCD es "<<MCD(4,8)<<endl;
     esPar();
     raizCuadrada(4);
     validador();

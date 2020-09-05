@@ -1,12 +1,12 @@
 #include "derivada.h"
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 
 using namespace std;
 //funcion para calcular potencia al cubo
 
-void derivadaCuadrada()
+void derivadaCuadrada(void)
 {
   int cuadrado,uno,constante;
   cout << "Ingrese un numero entero (^2): ";

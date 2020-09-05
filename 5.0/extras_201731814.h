@@ -4,4 +4,5 @@
 #include <cmath>
 
 int raizCuadrada(int a);
+int MCD(int a,int b);
 #endif

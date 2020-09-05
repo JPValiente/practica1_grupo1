@@ -1,7 +1,10 @@
-#include "derivada.h"
+#ifndef DERIVADA
+#define DERIVADA
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 using namespace std;
 
-void derivadaCuadrada(void);
+void derivadaCuadrada();
+
+#endif

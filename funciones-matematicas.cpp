@@ -8,6 +8,7 @@
 #include "3.0/Multiplicacionydivision.h"
 #include "5.0/extras_201731814.h"
 #include "5.0/funcionesTrigonometricas.h"
+#include "9.0/factorial.h"
 
 using namespace std;
 
@@ -24,4 +25,5 @@ int main() {
     multiplicacion(2,2);
     division(6,3);
     funcionesTrigonometricas();
+    funcionFactorial();
 }

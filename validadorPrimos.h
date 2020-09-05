@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void validador(void);
+void validadorPrimos(int num, int option);
 bool esPrimo(int numero);
 void esPar(void);
